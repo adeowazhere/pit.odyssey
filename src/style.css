@@ -1,6 +1,6 @@
 :root {
     --primary-colour: rgb(90, 160, 120);
-    --seondary-colour: rgb(18, 36, 30);
+    --seondary-colour: rgb(24, 50, 40);
 }
 
 @keyframes jittering {
@@ -43,7 +43,7 @@ html, body {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 40%, rgba(9, 18, 15, 0.5) 80%, rgba(9, 18, 15, 0.75));
 
     z-index: 999;
-
+    pointer-events: none;
 }
 
 body {
@@ -78,7 +78,7 @@ article {
     max-width: 75em;
 }
 
-p {
+p, input, span {
     font-size: 1.05em;
     font-family: 'Courier New', Courier, monospace;
 
@@ -87,5 +87,29 @@ p {
     animation: crt-text 0.5s infinite;
 
     white-space: pre-wrap;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+
+    font-size: 1.25em;
+    font-variant: small-caps;
+
+    background: none;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+span {
+    padding: 0.5em;
+}
+
+#input-section {
+    display: flex;
+    flex-direction: row;
 }
 
