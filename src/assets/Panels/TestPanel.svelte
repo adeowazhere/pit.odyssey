@@ -15,7 +15,12 @@
 
 > Regardless, you have a task that I am going to entrust you with... 
 
-> Are you prepared?`
+> Are you prepared?`,
+
+    optionA: "Lol",
+    optionB: "Hey ya",
+    optionC: "Hello everyone my name is Markiplier",
+    optionD: "Fart." 
     }
 </script>
 

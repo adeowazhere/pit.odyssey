@@ -78,7 +78,7 @@ article {
     max-width: 75em;
 }
 
-p, input, span {
+p, a {
     font-size: 1.05em;
     font-family: 'Courier New', Courier, monospace;
 
@@ -89,27 +89,16 @@ p, input, span {
     white-space: pre-wrap;
 }
 
-input {
-    display: inline-block;
-    width: 100%;
+#story-options {
+    display: flex;
+    flex-direction: column;
+}
+
+#story-options a {
+    padding: 0.5em;
 
     font-size: 1.25em;
     font-variant: small-caps;
-
-    background: none;
-    border: none;
-}
-
-input:focus {
-    outline: none;
-}
-
-span {
-    padding: 0.5em;
-}
-
-#input-section {
-    display: flex;
-    flex-direction: row;
+    text-decoration: underline;
 }
 
