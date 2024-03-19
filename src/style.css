@@ -78,7 +78,7 @@ article {
     max-width: 75em;
 }
 
-p, a {
+p, a, button {
     font-size: 1.05em;
     font-family: 'Courier New', Courier, monospace;
 
@@ -89,16 +89,39 @@ p, a {
     white-space: pre-wrap;
 }
 
+#skip-button {
+    position: absolute;
+    bottom: 2.5em;
+    left: 5em;
+
+    background: none;
+    border: none;
+
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#skip-hint {
+    position: absolute;
+    bottom: 2.5em;
+    right: 5em;
+}
+
 #story-options {
     display: flex;
     flex-direction: column;
 }
 
-#story-options a {
+#story-options button {
     padding: 0.5em;
 
     font-size: 1.25em;
     font-variant: small-caps;
+    text-align: left;
     text-decoration: underline;
+
+    background: none;
+    border: none;
+    outline: none;
 }
 
