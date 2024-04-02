@@ -1,8 +1,5 @@
 <script>
     import Panel from "/src/assets/Panel.svelte"
-    import Lol from "./A/Lol.svelte"
-
-    let selectedOption 
 
     const panelSettings = {
         TEXT: `
@@ -25,15 +22,6 @@
     optionC: "Hello everyone my name is Markiplier",
     optionD: "Fart." 
     }
-
-function renderNextPanel(event) {
-    selectedOption = event.detail
-}
 </script>
 
-<Panel on:message={renderNextPanel} {...panelSettings} />
-{#if selectedOption != null}
-    {#if selectedOption = "a"}
-        <Lol />
-    {/if}
-{/if}
+<Panel {...panelSettings} />

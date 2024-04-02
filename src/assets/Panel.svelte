@@ -1,15 +1,14 @@
 <script>
     import { onMount } from "svelte";
+    import { createEventDispatcher } from "svelte";
+    const dispatch = createEventDispatcher()
 
     export let TEXT, optionA, optionB, optionC, optionD
-
   
     const SPEED = 40;
     let dialogue = ""
     let isDialogueFinished = false
     let i = 0
-
-    let selectedOption = ""
   
     function typeWriter() {  
       const interval = setInterval(() => {
@@ -46,10 +45,10 @@
   
   {#if isDialogueFinished}
     <section id="story-options">
-      <button on:click={() => {selectedOption = "a"}}>A: { optionA }</button>
-      <button on:click={() => {selectedOption = "b"}}>A: { optionB }</button>
-      <button on:click={() => {selectedOption = "c"}}>A: { optionC }</button>
-      <button on:click={() => {selectedOption = "d"}}>A: { optionD }</button>
+      <button on:click={() => {dispatch("message", "a")}}>A: { optionA }</button>
+      <button on:click={() => {dispatch("message", "b")}}>B: { optionB }</button>
+      <button on:click={() => {dispatch("message", "c")}}>C: { optionC }</button>
+      <button on:click={() => {dispatch("message", "d")}}>D: { optionD }</button>
     </section>
   {/if}
 
