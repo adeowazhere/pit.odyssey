@@ -5,7 +5,7 @@
 
     export let TEXT, optionA, optionB, optionC, optionD
   
-    const SPEED = 40;
+    const SPEED = 35;
     let dialogue = ""
     let isDialogueFinished = false
     let i = 0
