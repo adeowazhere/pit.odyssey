@@ -6,6 +6,7 @@
 <article>
   <TestPanel />
 </article>
+<div id="scroll-buffer"></div>
 
 <style>
 </style>
