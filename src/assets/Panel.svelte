@@ -45,10 +45,18 @@
   
   {#if isDialogueFinished}
     <section id="story-options">
-      <button on:click={() => {dispatch("message", "a")}}>A: { optionA }</button>
-      <button on:click={() => {dispatch("message", "b")}}>B: { optionB }</button>
-      <button on:click={() => {dispatch("message", "c")}}>C: { optionC }</button>
-      <button on:click={() => {dispatch("message", "d")}}>D: { optionD }</button>
+    {#if optionA}
+      <button on:click={() => {dispatch("message", "a")}}>{ optionA }</button>
+    {/if}
+    {#if optionB}
+      <button on:click={() => {dispatch("message", "b")}}>{ optionB }</button>
+    {/if}
+    {#if optionC}
+      <button on:click={() => {dispatch("message", "c")}}>{ optionC }</button>
+    {/if}
+    {#if optionD}
+      <button on:click={() => {dispatch("message", "d")}}>{ optionD }</button>
+    {/if}
     </section>
   {/if}
 

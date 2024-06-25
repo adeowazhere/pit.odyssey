@@ -110,6 +110,7 @@ p, a, button {
 #story-options {
     display: flex;
     flex-direction: column;
+    padding: 0em 2em;
 }
 
 #story-options button {
@@ -125,3 +126,6 @@ p, a, button {
     outline: none;
 }
 
+#scroll-buffer {
+    height: 12.5vh;
+}

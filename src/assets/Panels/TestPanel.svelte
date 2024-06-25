@@ -23,10 +23,10 @@
 
 > are you prepared?          `,
 
-    optionA: "Lol",
-    optionB: "Hey ya",
-    optionC: "Hello everyone my name is Markiplier",
-    optionD: "Fart." 
+    optionA: "Yes.",
+    optionB: "",
+    optionC: "",
+    optionD: "" 
     }
 
 function renderNextPanel(event) {
