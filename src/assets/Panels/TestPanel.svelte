@@ -18,8 +18,8 @@
 > I want you to accompany someone,
 > guide them and keep them safe under your care.
 > I want them to live a happy life here but...               
-> they will have to come to a realisation           
-> and make a decision that I haven't decided on myself...          
+> they will have to make a decision that well          
+> I haven't decided on myself...          
 
 > are you prepared?          `,
 
