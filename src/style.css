@@ -27,7 +27,7 @@
     }
 }
 
-html, body {
+body {
     width: 97.5%;
     height: 97.5%;
 }
@@ -89,19 +89,21 @@ p, a, button {
     white-space: pre-wrap;
 }
 
-.img-container {
+.image-container {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+
+    width: 100%;
 }
 
 img {
-    max-width: 50em;
+    max-width: 25em;
 }
 
 #skip-button {
-    position: absolute;
+    position: fixed;
     bottom: 2.5em;
     left: 5em;
 
@@ -113,7 +115,7 @@ img {
 }
 
 #skip-hint {
-    position: absolute;
+    position: fixed;
     bottom: 2.5em;
     right: 5em;
 }
