@@ -3,7 +3,7 @@
     import { createEventDispatcher } from "svelte";
     const dispatch = createEventDispatcher()
 
-    export let TEXT, optionA, optionB, optionC, optionD
+    export let TEXT, imageLink, imageAlt, optionA, optionB, optionC, optionD
   
     const SPEED = 35;
     let dialogue = ""
@@ -44,6 +44,12 @@
   {/if}
   
   {#if isDialogueFinished}
+    {#if imageLink}
+      <div class="image-container">
+        <img src={imageLink} alt={imageAlt}/>
+      </div>
+    {/if}
+
     <section id="story-options">
     {#if optionA}
       <button on:click={() => {dispatch("message", "a")}}>{ optionA }</button>

@@ -17,6 +17,8 @@
 
 > Are you prepared?`,
 
+    imageLink: "/src/assets/Images/pit_drawing.png",
+    imageAlt: "a drawing of Pit!",
     optionA: "Lol",
     optionB: "Hey ya",
     optionC: "Hello everyone my name is Markiplier",
