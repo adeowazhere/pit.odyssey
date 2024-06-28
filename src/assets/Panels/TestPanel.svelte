@@ -23,7 +23,7 @@
 
 > are you prepared?          `,
 
-    optionA: "Yes.",
+    optionA: "Yes."
     }
 
 function renderNextPanel(event) {
