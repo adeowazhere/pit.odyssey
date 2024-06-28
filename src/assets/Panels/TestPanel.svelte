@@ -24,9 +24,6 @@
 > are you prepared?          `,
 
     optionA: "Yes.",
-    optionB: "",
-    optionC: "",
-    optionD: "" 
     }
 
 function renderNextPanel(event) {
