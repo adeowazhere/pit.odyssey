@@ -27,4 +27,3 @@
 </script>
 
 <Panel {...panelSettings} />
-<!--<div><img src="/src/assets/Images/pit_drawing.png" alt="a drawing of Pit!"/></div>-->
