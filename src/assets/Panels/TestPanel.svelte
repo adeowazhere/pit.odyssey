@@ -9,7 +9,7 @@
 > it appears your systems are online!      
 > I'm assuming you haven't got any idea what is going on
 > but you should have memories that have been constructed for you--     
-> ah wait telling you that might be a bad idea.
+> <i>ah wait telling you that might be a bad idea.</i>
 > ...               
 > well you have a purpose for all those memories that make you who you are.
 > to make decisions and be a voice of reason and direction, that is what you are.
