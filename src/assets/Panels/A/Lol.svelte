@@ -13,7 +13,7 @@
 > he sounds like a 12 year old and tells a few tall tales          
 > not anything malicious just uh... a teeny bit <i>mischievous</i>
 > fortunately, he doesn't like dad jokes such as puns     
-> so that should good you some leverage if things get <i>too</i> out of hand.     
+> so that should give you some leverage if things get <i>too</i> out of hand.     
 > im sure you will get along fine, dont worry too much about it :)
           
 > oh right you need to know what he even looks like
