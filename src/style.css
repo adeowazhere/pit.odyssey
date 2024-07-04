@@ -1,6 +1,6 @@
 :root {
     --primary-colour: rgb(90, 160, 120);
-    --seondary-colour: rgb(24, 50, 40);
+    --secondary-colour: rgb(24, 50, 40);
 }
 
 @keyframes jittering {
@@ -52,7 +52,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--seondary-colour);
+    background-color: var(--secondary-colour);
 }
 
 body::before {
@@ -102,7 +102,7 @@ img {
     max-width: 25em;
     margin: 2.5em;
 
-    border: 0.5em solid var(--seondary-colour);
+    border: 0.5em solid var(--secondary-colour);
     outline: 0.25em solid var(--primary-colour);
 }
 
