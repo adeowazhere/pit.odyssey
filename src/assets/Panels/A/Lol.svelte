@@ -25,6 +25,7 @@
 > here!`,
 
     imageLink: "/src/assets/Images/pit_drawing.png",
+    imageClass: "paper",
     imageAlt: "a drawing of Pit!",
     optionA: "Woah, yummy art! (eat the drawing.)",
     optionB: "Where did the paper come from?",

@@ -100,6 +100,15 @@ p, a, button {
 
 img {
     max-width: 25em;
+    margin: 2.5em;
+
+    border: 0.5em solid var(--seondary-colour);
+    outline: 0.25em solid var(--primary-colour);
+}
+
+.paper {
+    border: none;
+    outline: none;
 }
 
 #skip-button {
